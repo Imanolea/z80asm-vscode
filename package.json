@@ -2,7 +2,7 @@
     "name": "z80-asm",
     "displayName": "Z80 Assembly",
     "description": "Z80 Assembly support for Visual Studio Code",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "icon": "logo.png",
     "author": "Imanol Barriuso (Imanolea)",
     "publisher": "Imanolea",
