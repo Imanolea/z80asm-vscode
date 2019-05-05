@@ -2,6 +2,10 @@
     "name": "z80-asm",
     "displayName": "Z80 Assembly",
     "description": "Z80 Assembly support for Visual Studio Code",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Imanolea/z80asm-vscode"
+    },
     "version": "0.0.3",
     "icon": "logo.png",
     "author": "Imanol Barriuso (Imanolea)",
