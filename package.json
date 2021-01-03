@@ -6,7 +6,7 @@
         "type": "git",
         "url": "https://github.com/Imanolea/z80asm-vscode"
     },
-    "version": "0.0.3",
+    "version": "0.0.4",
     "icon": "logo.png",
     "author": "Imanol Barriuso (Imanolea)",
     "publisher": "Imanolea",
@@ -14,7 +14,7 @@
         "vscode": "^1.0.0"
     },
     "categories": [
-        "Languages"
+        "Programming Languages"
     ],
     "keywords": [
         "assembly",
