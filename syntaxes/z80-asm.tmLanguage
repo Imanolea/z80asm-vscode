@@ -84,7 +84,19 @@
 			<string>\b(A|B|C|D|E|F|H|L|I|R|IX|IY|AF|BC|DE|HL|PC|SP|AF'|Z|a|b|c|d|e|f|h|l|i|r|ix|iy|af|bc|de|hl|pc|sp|af'|z|HLI|hli|HLD|hld)\b</string>
 			<key>name</key>
 			<string>support.type.asm</string>
-		</dict>		
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>[a-zA-Z_][a-zA-Z0-9_]*:?$</string>
+			<key>name</key>
+			<string>entity.name.tag</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\([a-zA-Z_][a-zA-Z0-9_]*\)</string>
+			<key>name</key>
+			<string>entity.name.tag</string>
+		</dict>
 	</array>
 	<key>scopeName</key>
 	<string>source.asm.z80</string>
