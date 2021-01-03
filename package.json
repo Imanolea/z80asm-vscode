@@ -35,7 +35,8 @@
                     ".asm",
                     ".s",
                     ".z80",
-                    ".$C"
+                    ".$C",
+                    ".mac"
                 ],
                 "configuration": "./z80-asm.configuration.json"
             }
