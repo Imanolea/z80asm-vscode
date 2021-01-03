@@ -56,7 +56,7 @@
 			<string>string.quoted.double.include.asm.z80</string>
 		</dict>
 		<dict>
-			<key>match</key>			
+			<key>match</key>
 			<string>\b(ADC|ADD|AND|BIT|CALL|CCF|CP|CPD|CPDR|CPI|CPIR|CPL|DAA|DEC|DI|DJNZ|EI|EX|EXX|HALT|IM|IN|INC|IND|INDR|INI|INIR|JP|JR|LD|LDD|LDDR|LDI|LDIR|M|NC|NEG|NOP|NV|NZ|OR|OTDR|OTIR|OUT|OUTD|OUTI|POP|PUSH|RES|RET|RETI|RETN|RL|RLA|RLC|RLCA|RLD|RR|RRA|RRC|RRCA|RRD|RST|SBC|SCF|SET|SLA|SWAP|SRA|SRL|SUB|XOR|STOP|adc|add|and|bit|call|ccf|cp|cpd|cpdr|cpi|cpir|cpl|daa|dec|di|djnz|ei|ex|exx|halt|im|in|inc|ind|indr|ini|inir|jp|jr|ld|ldd|lddr|ldi|ldir|m|nc|neg|nop|nv|nz|or|otdr|otir|out|outd|outi|pop|push|res|ret|reti|retn|rl|rla|rlc|rlca|rld|rr|rra|rrc|rrca|rrd|rst|sbc|scf|set|sla|swap|sra|srl|sub|xor|LDA|lda|stop)\b</string>
 			<key>name</key>
 			<string>keyword.mnemonic.asm.z80</string>
@@ -81,21 +81,9 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(A|B|C|D|E|F|H|L|I|R|IX|IY|AF|BC|DE|HL|PC|SP|AF'|Z|a|b|c|d|e|f|h|l|i|r|ix|iy|af|bc|de|hl|pc|sp|af'|z|HLI|hli|HLD|hld)\b</string>
+			<string>\b(A|B|C|D|E|F|H|L|I|R|IX|IX[hH]|IX[lL]|IY|IY[hH]|IY[lL]|AF|BC|DE|HL|PC|SP|AF'|Z|a|b|c|d|e|f|h|l|i|r|ix|ixh|ixl|iy|iyh|iyl|af|bc|de|hl|pc|sp|af'|z|HLI|hli|HLD|hld)\b</string>
 			<key>name</key>
 			<string>support.type.asm</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>[a-zA-Z_][a-zA-Z0-9_]*:?$</string>
-			<key>name</key>
-			<string>entity.name.tag</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>\([a-zA-Z_][a-zA-Z0-9_]*\)</string>
-			<key>name</key>
-			<string>entity.name.tag</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
