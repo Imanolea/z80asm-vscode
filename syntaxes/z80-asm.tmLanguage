@@ -53,7 +53,49 @@
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>string.quoted.double.include.asm.z80</string>
+			<string>string.quoted.double.asm.z80</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>\\.</string>
+					<key>name</key>
+					<string>constant.character.escape.asm.z80</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>'</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.begin.asm.z80</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>'</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.end.asm.z80</string>
+				</dict>
+			</dict>
+			<key>name</key>
+			<string>string.quoted.single.asm.z80</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>\\.</string>
+					<key>name</key>
+					<string>constant.character.escape.asm.z80</string>
+				</dict>
+			</array>
 		</dict>
 		<dict>
 			<key>match</key>

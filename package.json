@@ -6,7 +6,7 @@
         "type": "git",
         "url": "https://github.com/Imanolea/z80asm-vscode"
     },
-    "version": "0.0.6",
+    "version": "0.0.8",
     "icon": "logo.png",
     "author": "Imanol Barriuso (Imanolea)",
     "publisher": "Imanolea",
